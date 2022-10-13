@@ -241,6 +241,11 @@ a:hover {
   width: 100vw;
 }
 
+.img-loader {
+  max-width: 70%;
+  height: auto;
+}
+
 .loader-container.fade-out {
   top: -120%;
 }
@@ -1434,7 +1439,7 @@ input.whats-input[type=text]:focus {
     width: 20%;
   }
   .heading .title-menu {
-    font-size: 5.5rem;
+    font-size: 5rem;
   }
   .heading .sub-menu {
     font-size: 6rem;
