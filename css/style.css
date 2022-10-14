@@ -120,6 +120,21 @@ p {
   color: var(--white) !important;
   background:  var(--black) !important;
 }
+
+
+.btn-modal {
+  display: inline-block !important;
+  cursor: pointer !important; 
+  color:  var(--white) !important;
+  background: var(--palet-1) !important;
+  font-size: 2rem !important;
+  padding: .375rem .75rem;
+}
+
+.btn-modal:hover {
+  color: var(--white) !important;
+  background:  var(--black) !important;
+}
 .header {
   z-index: 1000;
   padding: 1.5rem 1rem;
@@ -265,6 +280,8 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   gap:1.5rem;
+  align-items: center;
+    justify-content: center;
 }
 
 .banner-container .banner{
@@ -350,7 +367,9 @@ a:hover {
 #customers-testimonials-beb .item,
 #customers-testimonials-ham .item,
 #customers-testimonials-esp .item,
-#customers-testimonials-car .item {
+#customers-testimonials-car .item,
+#customers-testimonials-aba .item,
+#customers-testimonials-flo .item {
   text-align: center;
   padding: 1.5rem;
   padding-top: 2rem;
@@ -368,7 +387,9 @@ a:hover {
 #customers-testimonials-beb .owl-item.active.center .item,
 #customers-testimonials-ham .owl-item.active.center .item,
 #customers-testimonials-esp .owl-item.active.center .item,
-#customers-testimonials-car .owl-item.active.center .item {
+#customers-testimonials-car .owl-item.active.center .item,
+#customers-testimonials-aba .owl-item.active.center .item,
+#customers-testimonials-flo .owl-item.active.center .item {
   opacity: 1;
   -webkit-transform: scale3d(1.0, 1.0, 1);
   transform: scale3d(1.0, 1.0, 1);
