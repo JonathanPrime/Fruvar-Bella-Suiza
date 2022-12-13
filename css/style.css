@@ -53,7 +53,6 @@ section {
 }
 
 .text-products { 
-  background: var(--white) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -68,7 +67,8 @@ section {
   font-family: 'AllRoundGothic';
   font-size: 7rem;
   margin-top: -5rem;
-  color:  var(--palet-2);
+  -webkit-text-stroke: 1px var(--white);
+  color: var(--black);
 }
 
 .heading .sub-menu {
